@@ -6,3 +6,8 @@ let tip;
 if(bill >= 50 && bill <= 300) 
     {tip = bill * .15;}
 else{tip = bill * .20;}
+
+// 2. Output Details
+
+let total = bill + tip;
+console.log(`The bill was $${bill}, the tip was $${tip}, and the total value is $${total}`);
